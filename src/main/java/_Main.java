@@ -23,7 +23,8 @@ public class _Main {
         b[7] = book8;
         b[8] = book9;
         b[9] = book10;
-        System.out.println(Reader.choiseBook(b));
+        //System.out.println(Reader.choiseBook(b));
+        System.out.println(Reader.readBook(Reader.choiseBook(b)));
 
     }
 }

@@ -7,4 +7,8 @@ public class Reader {
         int randomNum = rn.nextInt(10);
         return b[randomNum];
     }
+
+    public static String readBook(Book b){
+        return b.toString();
+    }
 }
