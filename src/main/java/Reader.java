@@ -16,7 +16,7 @@ public class Reader {
         int result;
         Random rn = new Random();
         int randomNum = rn.nextInt(10);
-        char[] a = (b.toString().trim()).toCharArray();
+        char[] a = (b.toString().replaceAll("\\s+", "")).toCharArray();
         int c = a.length;
         if (b.getNumber() == 0) {
             result = c - (b.getNumber() + b.getPageNumber()) - randomNum;
